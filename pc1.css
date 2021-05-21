@@ -77,6 +77,54 @@ body {
   margin-bottom: 50px;
 }
 
+.font {
+  text-align: center;
+  line-height: 30px;
+}
+
+.photoa {
+  display: flex;
+  justify-content: center;
+}
+
+.photoa img {
+  width: 1000px;
+  margin-bottom: 100px;
+}
+
+.photob {
+  text-align: center;
+}
+
+.photob img {
+  width: 1000px;
+}
+
+@media (max-width :2000px) {
+  .photoa img {
+    width :700px;
+  }
+}
+
+@media (max-width :1400px) {
+  .photoa img {
+    width :500px;
+  }
+}
+
+@media (max-width :1000px) {
+  .photoa img {
+    width :300px;
+  }
+}
+
+@media (max-width :750px) {
+  .photoa img {
+    width :100px;
+  }
+}
+
+
 /* section {
   width: 300px;
   margin: 0 auto;
